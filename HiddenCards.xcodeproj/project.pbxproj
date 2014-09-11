@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		375F492D19B52C3800790FB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375F492C19B52C3800790FB1 /* Foundation.framework */; };
+		375F492F19B52C3800790FB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375F492E19B52C3800790FB1 /* CoreGraphics.framework */; };
+		375F493119B52C3800790FB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375F493019B52C3800790FB1 /* UIKit.framework */; };
+		375F493319B52C3800790FB1 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375F493219B52C3800790FB1 /* SpriteKit.framework */; };
+		375F493919B52C3800790FB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 375F493719B52C3800790FB1 /* InfoPlist.strings */; };
+		375F493B19B52C3800790FB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 375F493A19B52C3800790FB1 /* main.m */; };
+		375F493F19B52C3800790FB1 /* GABAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 375F493E19B52C3800790FB1 /* GABAppDelegate.m */; };
+		375F494219B52C3800790FB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 375F494019B52C3800790FB1 /* Main.storyboard */; };
+		375F494519B52C3800790FB1 /* GABViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375F494419B52C3800790FB1 /* GABViewController.m */; };
+		375F494819B52C3800790FB1 /* GABMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 375F494719B52C3800790FB1 /* GABMyScene.m */; };
+		375F494A19B52C3800790FB1 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 375F494919B52C3800790FB1 /* Spaceship.png */; };
+		375F494C19B52C3800790FB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 375F494B19B52C3800790FB1 /* Images.xcassets */; };
+		375F495319B52C3800790FB1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375F495219B52C3800790FB1 /* XCTest.framework */; };
+		375F495419B52C3800790FB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375F492C19B52C3800790FB1 /* Foundation.framework */; };
+		375F495519B52C3800790FB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375F493019B52C3800790FB1 /* UIKit.framework */; };
+		375F495D19B52C3800790FB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 375F495B19B52C3800790FB1 /* InfoPlist.strings */; };
+		375F495F19B52C3800790FB1 /* HiddenCardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 375F495E19B52C3800790FB1 /* HiddenCardsTests.m */; };
+		375F496A19B533D600790FB1 /* GABCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 375F496919B533D600790FB1 /* GABCard.m */; };
+		375F496C19B54CA800790FB1 /* putin_card.png in Resources */ = {isa = PBXBuildFile; fileRef = 375F496B19B54CA800790FB1 /* putin_card.png */; };
+		375F496E19B55BC200790FB1 /* card_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 375F496D19B55BC200790FB1 /* card_back.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		375F495619B52C3800790FB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 375F492119B52C3800790FB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 375F492819B52C3800790FB1;
+			remoteInfo = HiddenCards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		375F492919B52C3800790FB1 /* HiddenCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiddenCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		375F492C19B52C3800790FB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		375F492E19B52C3800790FB1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		375F493019B52C3800790FB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		375F493219B52C3800790FB1 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		375F493619B52C3800790FB1 /* HiddenCards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiddenCards-Info.plist"; sourceTree = "<group>"; };
+		375F493819B52C3800790FB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		375F493A19B52C3800790FB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		375F493C19B52C3800790FB1 /* HiddenCards-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HiddenCards-Prefix.pch"; sourceTree = "<group>"; };
+		375F493D19B52C3800790FB1 /* GABAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GABAppDelegate.h; sourceTree = "<group>"; };
+		375F493E19B52C3800790FB1 /* GABAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GABAppDelegate.m; sourceTree = "<group>"; };
+		375F494119B52C3800790FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		375F494319B52C3800790FB1 /* GABViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GABViewController.h; sourceTree = "<group>"; };
+		375F494419B52C3800790FB1 /* GABViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GABViewController.m; sourceTree = "<group>"; };
+		375F494619B52C3800790FB1 /* GABMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GABMyScene.h; sourceTree = "<group>"; };
+		375F494719B52C3800790FB1 /* GABMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GABMyScene.m; sourceTree = "<group>"; };
+		375F494919B52C3800790FB1 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		375F494B19B52C3800790FB1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		375F495119B52C3800790FB1 /* HiddenCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiddenCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		375F495219B52C3800790FB1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		375F495A19B52C3800790FB1 /* HiddenCardsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiddenCardsTests-Info.plist"; sourceTree = "<group>"; };
+		375F495C19B52C3800790FB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		375F495E19B52C3800790FB1 /* HiddenCardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiddenCardsTests.m; sourceTree = "<group>"; };
+		375F496819B533D600790FB1 /* GABCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GABCard.h; sourceTree = "<group>"; };
+		375F496919B533D600790FB1 /* GABCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GABCard.m; sourceTree = "<group>"; };
+		375F496B19B54CA800790FB1 /* putin_card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = putin_card.png; sourceTree = "<group>"; };
+		375F496D19B55BC200790FB1 /* card_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_back.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		375F492619B52C3800790FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375F492F19B52C3800790FB1 /* CoreGraphics.framework in Frameworks */,
+				375F493119B52C3800790FB1 /* UIKit.framework in Frameworks */,
+				375F493319B52C3800790FB1 /* SpriteKit.framework in Frameworks */,
+				375F492D19B52C3800790FB1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375F494E19B52C3800790FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375F495319B52C3800790FB1 /* XCTest.framework in Frameworks */,
+				375F495519B52C3800790FB1 /* UIKit.framework in Frameworks */,
+				375F495419B52C3800790FB1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		375F492019B52C3800790FB1 = {
+			isa = PBXGroup;
+			children = (
+				375F493419B52C3800790FB1 /* HiddenCards */,
+				375F495819B52C3800790FB1 /* HiddenCardsTests */,
+				375F492B19B52C3800790FB1 /* Frameworks */,
+				375F492A19B52C3800790FB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		375F492A19B52C3800790FB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				375F492919B52C3800790FB1 /* HiddenCards.app */,
+				375F495119B52C3800790FB1 /* HiddenCardsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		375F492B19B52C3800790FB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				375F492C19B52C3800790FB1 /* Foundation.framework */,
+				375F492E19B52C3800790FB1 /* CoreGraphics.framework */,
+				375F493019B52C3800790FB1 /* UIKit.framework */,
+				375F493219B52C3800790FB1 /* SpriteKit.framework */,
+				375F495219B52C3800790FB1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		375F493419B52C3800790FB1 /* HiddenCards */ = {
+			isa = PBXGroup;
+			children = (
+				375F493D19B52C3800790FB1 /* GABAppDelegate.h */,
+				375F493E19B52C3800790FB1 /* GABAppDelegate.m */,
+				375F494019B52C3800790FB1 /* Main.storyboard */,
+				375F494319B52C3800790FB1 /* GABViewController.h */,
+				375F494419B52C3800790FB1 /* GABViewController.m */,
+				375F494619B52C3800790FB1 /* GABMyScene.h */,
+				375F494719B52C3800790FB1 /* GABMyScene.m */,
+				375F496819B533D600790FB1 /* GABCard.h */,
+				375F496919B533D600790FB1 /* GABCard.m */,
+				375F494919B52C3800790FB1 /* Spaceship.png */,
+				375F496D19B55BC200790FB1 /* card_back.png */,
+				375F494B19B52C3800790FB1 /* Images.xcassets */,
+				375F496B19B54CA800790FB1 /* putin_card.png */,
+				375F493519B52C3800790FB1 /* Supporting Files */,
+			);
+			path = HiddenCards;
+			sourceTree = "<group>";
+		};
+		375F493519B52C3800790FB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				375F493619B52C3800790FB1 /* HiddenCards-Info.plist */,
+				375F493719B52C3800790FB1 /* InfoPlist.strings */,
+				375F493A19B52C3800790FB1 /* main.m */,
+				375F493C19B52C3800790FB1 /* HiddenCards-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		375F495819B52C3800790FB1 /* HiddenCardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				375F495E19B52C3800790FB1 /* HiddenCardsTests.m */,
+				375F495919B52C3800790FB1 /* Supporting Files */,
+			);
+			path = HiddenCardsTests;
+			sourceTree = "<group>";
+		};
+		375F495919B52C3800790FB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				375F495A19B52C3800790FB1 /* HiddenCardsTests-Info.plist */,
+				375F495B19B52C3800790FB1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		375F492819B52C3800790FB1 /* HiddenCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375F496219B52C3800790FB1 /* Build configuration list for PBXNativeTarget "HiddenCards" */;
+			buildPhases = (
+				375F492519B52C3800790FB1 /* Sources */,
+				375F492619B52C3800790FB1 /* Frameworks */,
+				375F492719B52C3800790FB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiddenCards;
+			productName = HiddenCards;
+			productReference = 375F492919B52C3800790FB1 /* HiddenCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		375F495019B52C3800790FB1 /* HiddenCardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375F496519B52C3800790FB1 /* Build configuration list for PBXNativeTarget "HiddenCardsTests" */;
+			buildPhases = (
+				375F494D19B52C3800790FB1 /* Sources */,
+				375F494E19B52C3800790FB1 /* Frameworks */,
+				375F494F19B52C3800790FB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				375F495719B52C3800790FB1 /* PBXTargetDependency */,
+			);
+			name = HiddenCardsTests;
+			productName = HiddenCardsTests;
+			productReference = 375F495119B52C3800790FB1 /* HiddenCardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		375F492119B52C3800790FB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GAB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Greg Borenstein";
+				TargetAttributes = {
+					375F495019B52C3800790FB1 = {
+						TestTargetID = 375F492819B52C3800790FB1;
+					};
+				};
+			};
+			buildConfigurationList = 375F492419B52C3800790FB1 /* Build configuration list for PBXProject "HiddenCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 375F492019B52C3800790FB1;
+			productRefGroup = 375F492A19B52C3800790FB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				375F492819B52C3800790FB1 /* HiddenCards */,
+				375F495019B52C3800790FB1 /* HiddenCardsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		375F492719B52C3800790FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375F493919B52C3800790FB1 /* InfoPlist.strings in Resources */,
+				375F494C19B52C3800790FB1 /* Images.xcassets in Resources */,
+				375F494A19B52C3800790FB1 /* Spaceship.png in Resources */,
+				375F496C19B54CA800790FB1 /* putin_card.png in Resources */,
+				375F496E19B55BC200790FB1 /* card_back.png in Resources */,
+				375F494219B52C3800790FB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375F494F19B52C3800790FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375F495D19B52C3800790FB1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		375F492519B52C3800790FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375F493B19B52C3800790FB1 /* main.m in Sources */,
+				375F494819B52C3800790FB1 /* GABMyScene.m in Sources */,
+				375F493F19B52C3800790FB1 /* GABAppDelegate.m in Sources */,
+				375F494519B52C3800790FB1 /* GABViewController.m in Sources */,
+				375F496A19B533D600790FB1 /* GABCard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		375F494D19B52C3800790FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375F495F19B52C3800790FB1 /* HiddenCardsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		375F495719B52C3800790FB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 375F492819B52C3800790FB1 /* HiddenCards */;
+			targetProxy = 375F495619B52C3800790FB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		375F493719B52C3800790FB1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				375F493819B52C3800790FB1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		375F494019B52C3800790FB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				375F494119B52C3800790FB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		375F495B19B52C3800790FB1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				375F495C19B52C3800790FB1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		375F496019B52C3800790FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		375F496119B52C3800790FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		375F496319B52C3800790FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiddenCards/HiddenCards-Prefix.pch";
+				INFOPLIST_FILE = "HiddenCards/HiddenCards-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		375F496419B52C3800790FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiddenCards/HiddenCards-Prefix.pch";
+				INFOPLIST_FILE = "HiddenCards/HiddenCards-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		375F496619B52C3800790FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HiddenCards.app/HiddenCards";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiddenCards/HiddenCards-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HiddenCardsTests/HiddenCardsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		375F496719B52C3800790FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HiddenCards.app/HiddenCards";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiddenCards/HiddenCards-Prefix.pch";
+				INFOPLIST_FILE = "HiddenCardsTests/HiddenCardsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		375F492419B52C3800790FB1 /* Build configuration list for PBXProject "HiddenCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375F496019B52C3800790FB1 /* Debug */,
+				375F496119B52C3800790FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		375F496219B52C3800790FB1 /* Build configuration list for PBXNativeTarget "HiddenCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375F496319B52C3800790FB1 /* Debug */,
+				375F496419B52C3800790FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		375F496519B52C3800790FB1 /* Build configuration list for PBXNativeTarget "HiddenCardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375F496619B52C3800790FB1 /* Debug */,
+				375F496719B52C3800790FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 375F492119B52C3800790FB1 /* Project object */;
+}
